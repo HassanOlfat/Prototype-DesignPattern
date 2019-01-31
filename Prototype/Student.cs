@@ -4,10 +4,13 @@ using System.Text;
 
 namespace Prototype
 {
-  internal  class Student
+    class ExtraInformation
+
     {
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public string Family { get; set; }
+
+        internal string Cost { get; set; }
+
+        internal int Ratings { get; set; }
+
     }
 }
